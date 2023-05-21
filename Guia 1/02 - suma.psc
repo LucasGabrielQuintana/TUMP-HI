@@ -1,5 +1,7 @@
 Algoritmo suma
 	
+	//Escribir un algoritmo que permita ingresar por teclado dos números e imprima su suma.
+	
 	definir a Como Entero
 	Definir b Como Entero
 	definir sum Como Entero
