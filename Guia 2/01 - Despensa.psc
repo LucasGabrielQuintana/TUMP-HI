@@ -14,7 +14,7 @@ Algoritmo despensa
 	definir sueldoA, sueldoB, SueldoC, jubilacion, obraSocial, neto, bono Como Real
 	jubilacion <- 0.11
 	obraSocial <- 0.03
-	sueldoA <- 21224
+	sueldoA <- 32335
 	sueldoB <- 38630.89
 	sueldoC <- 45560.20
 	bono <- 0.08
