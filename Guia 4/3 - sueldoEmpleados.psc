@@ -1,4 +1,6 @@
 Algoritmo sueldoEmpleados
+//	Se necesita cargar un vector con el sueldo de 10 empleados y luego mostrarlos por pantalla.
+//	Informar cuál es el mayor sueldo.
 	definir cantidadEmpleados, sueldoMayor Como Entero
 	definir sueldos  Como Real
 	sueldoMayor <- 0

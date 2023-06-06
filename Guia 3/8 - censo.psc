@@ -1,4 +1,11 @@
 Algoritmo censo
+//	Se realizó un censo provincial y se desea procesar la información obtenida en dicho censo. De
+//cada una de las personas censadas se tiene la siguiente información: número de documento, edad
+//	y sexo (?F? o ?M?). Realizar un algoritmo que lea los datos de cada persona censada (para fin de
+//		ingreso de datos, ingresar 0 (cero) como numero de documento) e informe: Cantidad total de
+//			personas censadas, cantidad de varones y cantidad de mujeres, porcentaje de varones cuya edad
+//			varía entre 16 y 65 años respecto del total de varones, mostrar datos de la persona que registra la
+//			mayor edad.
 	Definir sexoA, sexoB, sexoMayor, sexo Como Caracter
 	definir totalA, totalB, totalCenso, totalEdad, DNI, edadMayor, DNIMayor, edad Como Entero
 	definir porVar Como Real
@@ -31,23 +38,24 @@ Algoritmo censo
 					totalCenso = totalCenso+1
 				FinSi
 			Hasta Que sexo = sexoB O sexo = sexoA
+		
+			Escribir "¿Edad?"
+			leer edad
+			si sexo = sexoB y (edad >= 16 y edad <= 65) Entonces
+				totalEdad = totalEdad +1
+			FinSi
+			si edad > edadMayor Entonces
+				edadMayor = edad
+				DNIMayor = DNI
+				sexoMayor = sexo
+			FinSi
 		finSI
-		Escribir "¿Edad?"
-		leer edad
-		si sexo = sexoB y (edad >= 16 y edad <= 65) Entonces
-			totalEdad = totalEdad +1
-		FinSi
-		si edad > edadMayor Entonces
-			edadMayor = edad
-			DNIMayor = DNI
-			sexoMayor = sexo
-		FinSi
 	Hasta Que DNI = 0
 	porVar = (totalEdad/totalB)*100
 	Escribir "La cantidad de personas censadas fue: ", totalCenso
 	Escribir "Cantidad de Varones: ", totalB
 	Escribir "Cantidad de Mujeres: ", totalA
-	Escribir "Porcentaje de varones de edades entre 16 a 65 años: ", proVar
+	Escribir "Porcentaje de varones de edades entre 16 a 65 años: ", porVar,"%"
 	Escribir "La persona que registra mayor edad es: "
 	Escribir "Sexo: ", sexoMayor
 	Escribir "DNI: ", DNIMayor
