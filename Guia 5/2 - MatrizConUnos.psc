@@ -1,4 +1,7 @@
 Algoritmo MatrizConUnos
+//	Se dispone de una matriz de 4 x 4. Rellenar con 1 (unos) la diagonal (como muestra el gráfico) y el
+//	resto con 0 (ceros). Mostrar por pantalla la matriz.
+
     Definir matriz Como Entero
     Definir i, j Como Entero
 	Dimension matriz[4,4]
