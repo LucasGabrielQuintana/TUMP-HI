@@ -1,4 +1,12 @@
 Algoritmo ComercioMayorista
+//	Un comercio mayorista trabaja con 50 artículos. Dispone de un plantel de 15 vendedores para su
+//		venta, los cuales están numerados del 1 al 15 inclusive. El algoritmo deberá cargar y manejar una
+//			matriz llamada CANT de 50 x 15, en donde cada fila representa un artículo o producto, cada
+//			columna un Vendedor y cada componente de la matriz CANT [i, j] la cantidad del artículo i vendida
+//			por el vendedor j.
+//			El algoritmo también deberá cargar un vector llamado TOTAL con las cantidades totales de
+//				artículos vendidas por cada Vendedor. Luego informar cual fue el vendedor que realizó la mayor
+//			venta. 
 	Definir articulo, vendedor, CANT, TOTAL, mayorCantidad, identificador Como Entero
 	articulo <- 50
 	vendedor <- 15
