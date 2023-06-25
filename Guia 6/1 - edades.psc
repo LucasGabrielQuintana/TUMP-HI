@@ -7,6 +7,9 @@ Algoritmo edades
 	leer edad2
 	
 	cualEsMayor(edad1, edad2)
+	cualEsMayor(25,29)
+	cualEsMayor(23,18)
+	cualEsMayor(20,20)
 FinAlgoritmo
 
 SubAlgoritmo cualEsMayor(edad1, edad2)
