@@ -32,11 +32,7 @@ Algoritmo ComercioMayorista
 	//Se vuelve a recorrer la matriz para guardar el total de todos los articulos vendidos de cada vendedor en el vector TOTAL
 	para i <- 1 hasta articulo Hacer
 		para j <- 1 hasta vendedor Hacer
-			para k <- 1 hasta vendedor Hacer
-				si(j = k) Entonces
-					TOTAL[k] = TOTAL[k] + CANT[i,j]
-				FinSi
-			FinPara
+			TOTAL[j] = TOTAL[j] + CANT[i,j]
 		FinPara
 	FinPara
 	
