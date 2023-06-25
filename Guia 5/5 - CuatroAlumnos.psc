@@ -12,7 +12,7 @@ Algoritmo CuatroAlumnos
 	promedio <- 0
 	acumulador <- 0
 	cantidadAlumnos <- 4
-	notasYPromedio <- 4
+//	notasYPromedio <- 4
 	
 	Dimension notas[cantidadAlumnos, notasYPromedio]
 	//cargar notas
