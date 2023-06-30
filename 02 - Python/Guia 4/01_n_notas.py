@@ -5,7 +5,7 @@
 
 cant_notas = int(input('¿Cuántas notas son?\n'))
 notas = [] # Inicializo un array vacio
-acumulador = 0
+acumulador = 1
 
 for nota in range(1,cant_notas+1):
     valor = (float(input(f'Ingrese la nota {nota} => ')))
