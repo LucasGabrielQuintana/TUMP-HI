@@ -18,7 +18,7 @@ servicioB = "Internet 50 megas"
 servicioC = "Internet 100 megas"
 
 DNI = int(input('ingrese el DNI del cliente => '))
-servicio = int(input(f'Ingrese el servicio \n1 - {servicioA}\n2 - {servicioB} \n3 - {servicioC}'))
+servicio = int(input(f'Ingrese el servicio \n1 - {servicioA}\n2 - {servicioB} \n3 - {servicioC}\n'))
 
 if(servicio == 1):
     print(f'Servicio de {servicioA}\nSu DNI es: {DNI}\nTotal a pagar: ${precioA}')
