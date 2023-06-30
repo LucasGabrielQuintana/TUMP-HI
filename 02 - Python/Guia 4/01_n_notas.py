@@ -8,7 +8,7 @@ notas = [] # Inicializo un array vacio
 acumulador = 0
 
 for nota in range(1,cant_notas+1):
-    valor = (int(input(f'Ingrese la nota {nota} => ')))
+    valor = (float(input(f'Ingrese la nota {nota} => ')))
     notas.append(valor)
     print(nota)
     if(nota == 1):
