@@ -15,3 +15,5 @@ if(cantidad < 5):
     print('No se permiten compras de menos de 5 productos')
 elif(cantidad >=5 and cantidad <=15):
     print(f'El costo de envio es de ${costo}')
+else:
+    print('El envio es gratis')
